@@ -1,12 +1,18 @@
-# React + Vite
+Project Overview
+The FCFS (First-Come, First-Served) Scheduling Simulator is a web-based application that demonstrates the FCFS CPU scheduling algorithm in an interactive and visual manner.
+It allows users to input process details, calculate Completion Time (CT), Turn Around Time (TAT), Waiting Time (WT), and visualize process execution with a Gantt chart.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Dynamic input of Arrival Time (AT) and Burst Time (BT) for multiple processes.
 
-Currently, two official plugins are available:
+Automatic calculation of CT, TAT, WT for each process.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Displays average TAT and average WT.
 
-## Expanding the ESLint configuration
+Interactive Gantt chart showing CPU scheduling sequence and idle times.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built with React.js and Tailwind CSS for responsive UI.
+
+<img width="1495" height="663" alt="Screenshot 2025-09-21 134546" src="https://github.com/user-attachments/assets/55832712-a6bf-4732-9095-d59cee7f7457" />
+
+<img width="1466" height="717" alt="Screenshot 2025-09-21 134630" src="https://github.com/user-attachments/assets/cc4d0d3c-428c-4686-8824-e578d26b76dd" />
